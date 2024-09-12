@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    
+}
+/* Hide the scrollbar track */
+    ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  /* Style the scrollbar thumb */
+  ::-webkit-scrollbar-thumb {
+    background-color: #3a3939;
+    border-radius: 5px;
+  }
+  
+  /* Style the scrollbar on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #a9a9a9;
+  }
+  
+  /* Set the width and height of the scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 5px;
+  }
+  
+  /* Add the scrollbar to the x-axis */
+::-webkit-scrollbar-track-piece:end {
+    background-color: transparent;
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb:horizontal {
+    background-color: #3a3939;
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover:horizontal {
+    background-color: #a9a9a9;
+  }
+
+body{
+    background-image: url('/bg.jpg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
