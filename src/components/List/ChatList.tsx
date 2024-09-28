@@ -11,7 +11,7 @@ const ChatList = () => {
   const [input, setInput] = useState("");
   const [chats, setChats] = useState<any[]>([]);
   const { currentUser } = useUserStore();
-  const { chatId, changeChat } = useChatStore();
+  const { changeChat } = useChatStore();
 
   useEffect(() => {
     const unSub = onSnapshot(

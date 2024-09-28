@@ -5,7 +5,7 @@ import { arrayRemove, arrayUnion, doc, updateDoc } from "firebase/firestore";
 import { useUserStore } from "../lib/userStore";
 
 const Detail = () => {
-  const { chatId, user, isCurrentUserBlocked, isReceiverBlocked, changeBlock } =
+  const { user, isCurrentUserBlocked, isReceiverBlocked, changeBlock } =
     useChatStore();
   const { currentUser } = useUserStore();
 
