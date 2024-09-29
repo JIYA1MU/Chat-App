@@ -46,21 +46,6 @@ const Detail = () => {
         </div>
         <div className="option">
           <div className="title">
-            <span>Shared photos</span>
-            <img src="./arrowDown.png" />
-          </div>
-          <div className="photos">
-            <div className="photoItem">
-              <div className="photoDetail">
-                <img src="https://img.freepik.com/free-photo/3d-house-model-with-modern-architecture_23-2151004049.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1725148800&semt=ais_hybrid" />
-                <span>photo_2023_2.png</span>
-              </div>
-              <img src="./download.png" className="icon" />
-            </div>
-          </div>
-        </div>
-        <div className="option">
-          <div className="title">
             <span>Shared Files</span>
             <img src="./arrowUp.png" />
           </div>
@@ -82,6 +67,7 @@ const Detail = () => {
 
 const Detail_Area = styled.div`
   flex: 1;
+  width: 0;
   .user {
     padding: 30px 20px;
     display: flex;
